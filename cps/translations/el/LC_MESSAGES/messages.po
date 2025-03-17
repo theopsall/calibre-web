@@ -24,16 +24,16 @@ msgstr "Στατιστικά"
 #: cps/admin.py:151
 #, fuzzy
 msgid "Server restarted, please reload page."
-msgstr "Ο διακομιστής επανεκκίνησε, παρακαλούμε φόρτωσε ξανά τη σελίδα"
+msgstr "Έγινε επανεκκίνηση του διακομιστή, παρακαλούμε φόρτωσε ξανά τη σελίδα"
 
 #: cps/admin.py:153
 #, fuzzy
 msgid "Performing Server shutdown, please close window."
-msgstr "Πραγματοποιείται κλείσιμο του διακομιστή, παρακαλούμε κλείσε το παράθυρο"
+msgstr "Εκτέλεση τερματισμού του διακομιστή, παρακαλούμε κλείσε το παράθυρο"
 
 #: cps/admin.py:161
 msgid "Success! Database Reconnected"
-msgstr ""
+msgstr "Η βάση δεδομένων επανασυνδέθηκε επιτυχώς"
 
 #: cps/admin.py:164
 msgid "Unknown command"
@@ -71,7 +71,7 @@ msgstr "Η ειδικά προσαρμοσμένη στήλη No.%(column)d δε
 #: cps/admin.py:333 cps/templates/admin.html:51
 #, fuzzy
 msgid "Edit Users"
-msgstr "Χρήστης Διαχειριστής"
+msgstr "Επερξεργασία χρηστών"
 
 #: cps/admin.py:377 cps/opds.py:540 cps/templates/grid.html:14
 #: cps/templates/list.html:13
@@ -84,8 +84,7 @@ msgstr "Δεν βρέθηκε χρήστης"
 
 #: cps/admin.py:415
 msgid "{} users deleted successfully"
-msgstr ""
-
+msgstr "{} χρήστες διαγράφηκαν επιτυχώς"
 #: cps/admin.py:438 cps/templates/config_view_edit.html:133
 #: cps/templates/user_edit.html:45 cps/templates/user_table.html:81
 msgid "Show All"
@@ -93,15 +92,15 @@ msgstr "Προβολή Όλων"
 
 #: cps/admin.py:459 cps/admin.py:465
 msgid "Malformed request"
-msgstr ""
+msgstr "Μη έγκυρο αίτημα"
 
 #: cps/admin.py:477 cps/admin.py:2069
 msgid "Guest Name can't be changed"
-msgstr ""
+msgstr "Το όνομα του επισκέπτη δεν μπορεί να αλλάξει"
 
 #: cps/admin.py:489
 msgid "Guest can't have this role"
-msgstr ""
+msgstr "Ο επισκέπτης δεν μπορεί να έχει αυτόν τον ρόλο"
 
 #: cps/admin.py:501 cps/admin.py:2023
 msgid "No admin user remaining, can't remove admin role"
@@ -109,90 +108,90 @@ msgstr "Δεν έχει απομείνει χρήστης διαχειριστή
 
 #: cps/admin.py:505 cps/admin.py:519
 msgid "Value has to be true or false"
-msgstr ""
+msgstr "Η τιμή πρέπει να είναι αληθής ή ψευδής"
 
 #: cps/admin.py:507
 msgid "Invalid role"
-msgstr ""
+msgstr "Λάθος ρόλος"
 
 #: cps/admin.py:511
 msgid "Guest can't have this view"
-msgstr ""
+msgstr "Ο επισκέπτης δεν μπορεί να έχει αυτη τη σελίδα"
 
 #: cps/admin.py:521
 msgid "Invalid view"
-msgstr ""
+msgstr "Λάθος σελίδα"
 
 #: cps/admin.py:524
 msgid "Guest's Locale is determined automatically and can't be set"
-msgstr ""
+msgstr "Η τοποθεσία του επισκέπτη καθορίζεται μόνο αυτόματα"
 
 #: cps/admin.py:528
 msgid "No Valid Locale Given"
-msgstr ""
+msgstr "Δεν έχει δοθεί έγκυρη τοποθεσία"
 
 #: cps/admin.py:539
 msgid "No Valid Book Language Given"
-msgstr ""
+msgstr "Μη έγκυρη γλώσσα βιβλίου"
 
 #: cps/admin.py:541 cps/editbooks.py:292
 msgid "Parameter not found"
-msgstr ""
+msgstr "Η παράμετρος δεν βρέθηκε"
 
 #: cps/admin.py:578
 msgid "Invalid Read Column"
-msgstr ""
+msgstr "Μη έγκυρη στήλη ανάγνωσης"
 
 #: cps/admin.py:584
 msgid "Invalid Restricted Column"
-msgstr ""
+msgstr "Μη έγκυρη περιορισμένη στήλη"
 
 #: cps/admin.py:604 cps/admin.py:1894
 msgid "Calibre-Web configuration updated"
-msgstr "Ενημερώθηκε η διαμόρφωση Calibre-Web"
+msgstr "Ενημερώθηκαν οι ρυθμίσεις του Calibre-Web"
 
 #: cps/admin.py:616
 msgid "Do you really want to delete the Kobo Token?"
-msgstr "Θέλεις πραγματικά να διαγράψεις τη Μονάδα Kobo;"
+msgstr "Θέλετε πραγματικά να διαγράψετε το Kobo Token;"
 
 #: cps/admin.py:618
 msgid "Do you really want to delete this domain?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να διαγράψετε το domain;"
 
 #: cps/admin.py:620
 msgid "Do you really want to delete this user?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να διαγράψετε αυτόν τον χρήστη;"
 
 #: cps/admin.py:622
 msgid "Are you sure you want to delete this shelf?"
-msgstr "Είσαι σίγουρος/η πως θέλεις να διαγράψεις αυτό το ράφι;"
+msgstr "Είστε σίγουροι πως θέλετε να διαγράψετε αυτό το ράφι;"
 
 #: cps/admin.py:624
 #, fuzzy
 msgid "Are you sure you want to change locales of selected user(s)?"
-msgstr "Είσαι σίγουρος/η πως θέλεις να διαγράψεις αυτό το ράφι;"
+msgstr "Είστε σίγουροι ότι θέλετε να αλλάξετε τις τοπικές ρυθμίσεις των επιλεγμένων χρηστών;"
 
 #: cps/admin.py:626
 msgid "Are you sure you want to change visible book languages for selected user(s)?"
-msgstr ""
+msgstr ""Είστε σίγουροι ότι θέλετε να αλλάξετε τις ορατές γλώσσες των βιβλίων για επιλεγμένους χρήστη/ες;
 
 #: cps/admin.py:628
 msgid "Are you sure you want to change the selected role for the selected user(s)?"
-msgstr ""
+msgstr "Είστε σίγουροι ότι θέλετε να αλλάξετε τον επιλεγμένο ρόλο για τον/τους επιλεγμένους χρήστη/ες;"
 
 #: cps/admin.py:630
 #, fuzzy
 msgid "Are you sure you want to change the selected restrictions for the selected user(s)?"
-msgstr "Είσαι σίγουρος/η πως θέλεις να διαγράψεις αυτό το ράφι;"
+msgstr "Είστε σίγουροι ότι θέλετε να αλλάξετε τους επιλεγμένους περιορισμούς για τον/τους επιλεγμένο/ους χρήστη/ες;"
 
 #: cps/admin.py:632
 msgid "Are you sure you want to change the selected visibility restrictions for the selected user(s)?"
-msgstr ""
+msgstr "Είστε σίγουροι ότι θέλετε να αλλάξετε τους επιλεγμένους περιορισμούς ορατότητας για τον/τους επιλεγμένο/ους χρήστη/ες;"
 
 #: cps/admin.py:635
 #, fuzzy
 msgid "Are you sure you want to change shelf sync behavior for the selected user(s)?"
-msgstr "Είσαι σίγουρος/η πως θέλεις να διαγράψεις αυτό το ράφι;"
+msgstr "Είστε σίγουροι ότι θέλετε να αλλάξετε τη συμπεριφορά συγχρονισμού ραφιών για τον/τους επιλεγμένο/ους χρήστη/ες;"
 
 #: cps/admin.py:637
 #, fuzzy
@@ -3707,4 +3706,3 @@ msgstr ""
 #, fuzzy
 msgid "Show Read/Unread Section"
 msgstr "Προβολή επιλογών σειράς"
-

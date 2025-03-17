@@ -1,14 +1,14 @@
 # Greek Translations for Calibre-Web.
 # Copyright (C) 2020 Ozzie Isaacs
 # This file is distributed under the same license as the Calibre-Web project.
-# Depountis Georgios 2020.
+# Theodoros Psallidas Georgios 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version:  Calibre-Web\n"
 "Report-Msgid-Bugs-To: https://github.com/janeczku/Calibre-Web\n"
 "POT-Creation-Date: 2024-12-15 07:19+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Depountis Georgios\n"
+"PO-Revision-Date: 2025-03-18 00:33+0200\n"
+"Last-Translator: Theodoros Psallidas\n"
 "Language: el\n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -22,12 +22,10 @@ msgid "Statistics"
 msgstr "Στατιστικά"
 
 #: cps/admin.py:151
-#, fuzzy
 msgid "Server restarted, please reload page."
 msgstr "Έγινε επανεκκίνηση του διακομιστή, παρακαλούμε φόρτωσε ξανά τη σελίδα"
 
 #: cps/admin.py:153
-#, fuzzy
 msgid "Performing Server shutdown, please close window."
 msgstr "Εκτέλεση τερματισμού του διακομιστή, παρακαλούμε κλείσε το παράθυρο"
 
@@ -40,7 +38,6 @@ msgid "Unknown command"
 msgstr "Άγνωστη εντολή"
 
 #: cps/admin.py:175
-#, fuzzy
 msgid "Success! Books queued for Metadata Backup, please check Tasks for result"
 msgstr "Το βιβλίο έχει επιτυχώς μπει σε σειρά για αποστολή στο %(eReadermail)s"
 
@@ -85,6 +82,7 @@ msgstr "Δεν βρέθηκε χρήστης"
 #: cps/admin.py:415
 msgid "{} users deleted successfully"
 msgstr "{} χρήστες διαγράφηκαν επιτυχώς"
+
 #: cps/admin.py:438 cps/templates/config_view_edit.html:133
 #: cps/templates/user_edit.html:45 cps/templates/user_table.html:81
 msgid "Show All"
@@ -167,7 +165,6 @@ msgid "Are you sure you want to delete this shelf?"
 msgstr "Είστε σίγουροι πως θέλετε να διαγράψετε αυτό το ράφι;"
 
 #: cps/admin.py:624
-#, fuzzy
 msgid "Are you sure you want to change locales of selected user(s)?"
 msgstr "Είστε σίγουροι ότι θέλετε να αλλάξετε τις τοπικές ρυθμίσεις των επιλεγμένων χρηστών;"
 
@@ -180,7 +177,6 @@ msgid "Are you sure you want to change the selected role for the selected user(s
 msgstr "Είστε σίγουροι ότι θέλετε να αλλάξετε τον επιλεγμένο ρόλο για τον/τους επιλεγμένους χρήστη/ες;"
 
 #: cps/admin.py:630
-#, fuzzy
 msgid "Are you sure you want to change the selected restrictions for the selected user(s)?"
 msgstr "Είστε σίγουροι ότι θέλετε να αλλάξετε τους επιλεγμένους περιορισμούς για τον/τους επιλεγμένο/ους χρήστη/ες;"
 
@@ -189,22 +185,20 @@ msgid "Are you sure you want to change the selected visibility restrictions for 
 msgstr "Είστε σίγουροι ότι θέλετε να αλλάξετε τους επιλεγμένους περιορισμούς ορατότητας για τον/τους επιλεγμένο/ους χρήστη/ες;"
 
 #: cps/admin.py:635
-#, fuzzy
 msgid "Are you sure you want to change shelf sync behavior for the selected user(s)?"
 msgstr "Είστε σίγουροι ότι θέλετε να αλλάξετε τη συμπεριφορά συγχρονισμού ραφιών για τον/τους επιλεγμένο/ους χρήστη/ες;"
 
 #: cps/admin.py:637
-#, fuzzy
 msgid "Are you sure you want to change Calibre library location?"
-msgstr "Είσαι σίγουρος/η πως θέλεις να κάνεις κλείσιμο;"
+msgstr "Είστε σίγουροι ότι θέλετε να αλλάξετε τη θέση της βιβλιοθήκης του Calibre;"
 
 #: cps/admin.py:639
 msgid "Calibre-Web will search for updated Covers and update Cover Thumbnails, this may take a while?"
-msgstr ""
+msgstr "Το Calibre-Web θα ψάξει για ενημερωμένα εξώφυλλα και θα ενημερώσει τις μικρογραφίες εξώφυλλων, αυτό μπορεί να πάρει λίγο χρόνο;"
 
 #: cps/admin.py:642
 msgid "Are you sure you want delete Calibre-Web's sync database to force a full sync with your Kobo Reader?"
-msgstr ""
+msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε τη βάση δεδομένων συγχρονισμού του Calibre-Web για να εξαναγκάσετε σε πλήρη συγχρονισμό με το Kobo Reader σας;"
 
 #: cps/admin.py:885 cps/admin.py:891 cps/admin.py:901 cps/admin.py:911
 #: cps/templates/modal_dialogs.html:29 cps/templates/user_table.html:41
@@ -220,40 +214,39 @@ msgstr "Επιτρέπεται"
 
 #: cps/admin.py:946
 msgid "{} sync entries deleted"
-msgstr ""
+msgstr "{} εγγραφές συγχρονισμού διαγράφηκαν"
 
 #: cps/admin.py:987
 msgid "Tag not found"
-msgstr ""
+msgstr "Η ετικέτα δεν βρέθηκε"
 
 #: cps/admin.py:1005
 msgid "Invalid Action"
-msgstr ""
+msgstr "Άκυρη ενέργεια"
 
 #: cps/admin.py:1132
 msgid "client_secrets.json Is Not Configured For Web Application"
-msgstr "client_secrets.json Δεν Έχει Διαμορφωθεί Για Διαδικτυακή Εφαρμογή"
+msgstr "Το client_secrets.json Δεν Έχει Διαμορφωθεί Για Διαδικτυακή Εφαρμογή"
 
 #: cps/admin.py:1177
 msgid "Logfile Location is not Valid, Please Enter Correct Path"
-msgstr "Το Φύλλο Καταγραφής Τοποθεσίας δεν είναι Έγκυρο, Παρακαλούμε Συμπλήρωσε Τη Σωστή Πορεία"
+msgstr "Η τοποθεσία του αρχείου καταγραφής δεν είναι έγκυρη, παρακαλώ εισάγετε τη σωστή διαδρομή"
 
 #: cps/admin.py:1183
 msgid "Access Logfile Location is not Valid, Please Enter Correct Path"
-msgstr "Η Πρόσβαση Φύλλου Καταγραφης Τοποθεσίας δεν είναι έγκυρη, Παρακαλούμε Συμπλήρωσε Τη Σωστή Πορεία"
+msgstr "Η τοποθεσία του αρχείου καταγραφής πρόσβασης δεν είναι έγκυρη, παρακαλώ εισάγετε τη σωστή διαδρομή"
 
 #: cps/admin.py:1217
 msgid "Please Enter a LDAP Provider, Port, DN and User Object Identifier"
-msgstr "Παρακαλούμε Συμπλήρωσε ένα Πάροχο LDAP, Θύρα, DN και Αντικείμενο Αναγνώρισης Χρήστη"
+msgstr "Εισάγετε τον πάροχο LDAP, τη θύρα, το DN και το αναγνωριστικό αντικειμένου χρήστη"
 
 #: cps/admin.py:1223
-#, fuzzy
 msgid "Please Enter a LDAP Service Account and Password"
-msgstr "Παρακαλούμε συμπλήρωσε ένα έγκυρο όνομα χρήστη για επαναφορά του κωδικού"
+msgstr Εισάγετε λογαριασμό και κωδικό πρόσβασης υπηρεσίας LDAP"
 
 #: cps/admin.py:1226
 msgid "Please Enter a LDAP Service Account"
-msgstr ""
+msgstr "Εισάγετε ένα λογαριασμό υπηρεσίας LDAP"
 
 #: cps/admin.py:1231
 #, python-format
